@@ -6,13 +6,11 @@ The Humber Summarizer is a tool designed to summarize text, PDF, or Word documen
 - Summarize plain-text, PDF, or Word documents.
 - Choose between English or French language summarization.
 - User-friendly interface powered by Streamlit.
-- Easy-to-use, even for users with minimal technical background.
-- Obtain concise summaries for efficient information consumption.
-- Getting Started
-- To use the Humber Summarizer tool on your local machine, follow these steps:
+- English model uses [LaMini-Flan-T5-248M](https://huggingface.co/MBZUAI/LaMini-Flan-T5-248M)
+- French model uses [BARThez](https://huggingface.co/docs/transformers/model_doc/barthez)
 
 ### Project Flowchart
-![Alt text](https://github.com/Sofiaanjum/Humber-Summarizer/blob/main/Flowchart.png)
+![Alt text](flow_chart.png)
 
 
 ### Prerequisites
@@ -23,16 +21,10 @@ The Humber Summarizer is a tool designed to summarize text, PDF, or Word documen
 1. Clone this repository to your local machine:
    
 ```
-git clone https://github.com/Sofiaanjum/Humber-Summarizer.git
+git clone https://github.com/tl-lay/document-summarizer.git
 ```
 
-2. Navigate to the project directory:
-
-```
-cd Humber-Summarizer
-```
-
-3. Install the required dependencies using `pip`:
+2. Install the required dependencies
 
 ```
 pip install -r requirements.txt
@@ -43,18 +35,10 @@ pip install -r requirements.txt
 ```
 streamlit run app.py
 ```
+2. This will open a web browser window with the Document Summarizer interface.
 
-3. This will open a web browser window with the Humber Summarizer interface.
+3. Enter the text or upload a document you want to summarize.
 
-4. Enter the text or upload a document you want to summarize.
+4. Choose the appropriate language (English or French) for summarization.
 
-5. Choose the appropriate language (English or French) for summarization.
-
-6. Click the "Summarize" button to generate a concise summary of the input document.
-
-### Example
-Here's a sample usage of the Humber Summarizer:
-
-1. User uploads a PDF document containing a research paper in English.
-2. User selects the English language and clicks "Summarize (English) " button.
-3. The tool processes the document and displays a summarized version of the research paper.
+5. Click the "Summarize" button to generate a concise summary of the input document.
