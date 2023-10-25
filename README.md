@@ -6,8 +6,8 @@ The Humber Summarizer is a tool designed to summarize text, PDF, or Word documen
 - Summarize plain-text, PDF, or Word documents.
 - Choose between English or French language summarization.
 - User-friendly interface powered by Streamlit.
-- English model uses [LaMini-Flan-T5-248M](https://huggingface.co/MBZUAI/LaMini-Flan-T5-248M)
-- French model uses [BARThez](https://huggingface.co/docs/transformers/model_doc/barthez)
+- English model: [LaMini-Flan-T5-248M](https://huggingface.co/MBZUAI/LaMini-Flan-T5-248M)
+- French model: [BARThez](https://huggingface.co/docs/transformers/model_doc/barthez)
 
 ### Project Flowchart
 ![Alt text](flow_chart.png)
