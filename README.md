@@ -42,3 +42,7 @@ streamlit run app.py
 4. Choose the appropriate language (English or French) for summarization.
 
 5. Click the "Summarize" button to generate a concise summary of the input document.
+
+The app should look something like this:
+![image](https://github.com/tl-lay/document-summarizer/assets/97479314/3ab18fae-69a7-4861-96c2-1eca21ab004d)
+
