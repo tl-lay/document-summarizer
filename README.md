@@ -1,6 +1,6 @@
-# Humber Summarizer - A Document Summarization Tool
+# Document Summarization Tool
 
-The Humber Summarizer is a tool designed to summarize text, PDF, or Word documents. The tool is capable of performing English to English or French to French summarizations.
+A tool designed to summarize text, PDF, or Word documents. The tool is capable of performing English to English or French to French summarizations.
 
 ### Features
 - Summarize plain-text, PDF, or Word documents.
